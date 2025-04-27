@@ -1,4 +1,4 @@
-package handlers
+package controllers
 
 import (
 	"fmt"
@@ -6,5 +6,5 @@ import (
 )
 
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "🏠 Welcome to the Home Page!")
+	fmt.Fprintln(w, "Welcome to the DAGaroo home.")
 }
